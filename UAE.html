@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	
+	<!-- DON'T ERASE THIS SECTION Below! -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="library.js">
+		</script>
+		
+	<!-- ^^^^^^^^ DON'T ERASE THIS SECTION above! ^^^^^^^^ -->
+ 		
+		<!-- Your code should go into the colorFlag function below -->
+		
+		<script type="text/javascript">
+			function colorFlag(flag){
+				for(y=0;y<9;y++) {
+					for(x=0;x<5;x++) {
+					 flag.colorPoint(x,y,"red"); 
+					 }
+				}
+				for(y=0;y<3;y++) {
+					for(x=5;x<18;x++) {
+					 flag.colorPoint(x,y,"green"); 
+					 }
+				}
+				for(y=3;y<6;y++) {
+					for(x=5;x<18;x++) {
+					 flag.colorPoint(x,y,"white"); 
+					 }
+				}
+				for(y=6;y<9;y++) {
+					for(x=5;x<18;x++) {
+					 flag.colorPoint(x,y,"black"); 
+					 }
+				}
+			}
+		</script>	
+	
+	
+	</head>
+	<body>
+		
+	
+		
+	
+	</body>
+</html>
